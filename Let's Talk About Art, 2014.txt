@@ -30,7 +30,9 @@ It should look something like this:
 
 Upon hitting enter you will hear the pleasing sound of an unbiased machine describing a work, or works, of art to you. 
 
-Turn down the brightness of your computer screen and try to correlate the machine’s description with the emotional reaction you experienced earlier. Write down what you feel with your pen and notepad.
+Turn down the brightness of your computer screen and try to correlate the machine’s description with the emotional reaction you experienced earlier. 
+
+Write down what you feel using your pen and your notepad.
 
 (If you are having difficulty finding the directory of your file you can simply drag and drop the file from your finder window after the <say -f> command.)
 
@@ -56,7 +58,9 @@ Upon hitting enter an .aiff audio file featuring your analysis of the work will 
 
 Step 5
 
-Disseminate this .aiff file in any way you can. Upload it to the internet, burn it to compact discs, play it from boom boxes in commercial galleries. 
+Disseminate this .aiff file in any way you can. Upload it to the internet, burn it to compact discs, play it from boomboxes in commercial galleries.
+
+
 
 
 
