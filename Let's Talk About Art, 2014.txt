@@ -1,0 +1,62 @@
+Benjie Cluness
+
+Let’s Talk About Art, 2014
+
+Description
+
+Let’s Talk About Art allows the user to contemplate the experience of art stripped of subjectivity and emotion. It acts as an objective recollection of an event or experience that can be shared with others. When asked about an artwork that we have seen we may automatically describe how it made us feel, as opposed to how it was made. With Let’s Talk About Art the user is able to create a log of the material experience and a detailed description of an exhibition or artwork.
+
+Instruction
+
+Step 1
+
+View an artwork or visit a gallery, bring a pen and notepad, tablet, or some form of recording device. Experience the work, acknowledge your emotional response, remember it, but do not make any note of it. Instead describe the work in as much detail as you can; the medium, the dimensions, how it is hung/displayed etc. If the work is a painting describe the type of paint, the style of painting, and the colours used as well as what it depicts. Be as precise as you can, but do not respond in a subjective way, a clinical analysis of the work’s being is what is needed. Once you have exhausted the minutia of detail you may leave. Go for a coffee, meet some friends, tell them about the artwork/exhibition you saw, about how it made you feel. 
+
+Step 2
+
+Once home transcribe your notes in a .txt file in TextEdit, retaining the level of meticulous detail in the data you collected. At no point should you mention the title of the work or the name of the artist or gallery. Address the piece of text in the second person, e.g. ‘You are looking at a sculpture/painting/projection, etc.’
+
+Save the file as art.txt or any name you prefer.
+
+Step 3
+
+Open terminal on your computer and when prompted enter:
+
+	say -f <path/your_file>
+
+It should look something like this:
+
+	say -f /Users/johnsmith/Documents/art.txt
+
+Upon hitting enter you will hear the pleasing sound of an unbiased machine describing a work, or works, of art to you. 
+
+Turn down the brightness of your computer screen and try to correlate the machine’s description with the emotional reaction you experienced earlier. Write down what you feel with your pen and notepad.
+
+(If you are having difficulty finding the directory of your file you can simply drag and drop the file from your finder window after the <say -f> command.)
+
+Step 4
+
+In art it is important to share your experience. 
+
+Repeat the command from Step 3 but do not hit return, instead add the following:
+
+	-o <path/file_name>
+
+It should look something like this:
+
+	-o /Users/johnsmith/Documents/artaudio
+
+You must determine the filename and its path, for ease keep it in the same directory as the original .txt file.
+
+The overall command should now look like this:
+
+	say -f /Users/johnsmith/Documents/art.txt -o /Users/johnsmith/Documents/artaudio
+
+Upon hitting enter an .aiff audio file featuring your analysis of the work will appear in the specified directory.
+
+Step 5
+
+Disseminate this .aiff file in any way you can. Upload it to the internet, burn it to compact discs, play it from boom boxes in commercial galleries. 
+
+
+
